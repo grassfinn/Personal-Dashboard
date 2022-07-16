@@ -5,19 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+
+    <title>Personal Dashboard</title>
 </head>
 <body>
-    <div class="container">
-        <main>
-            <div class="top">
-                <p>Crypto</p>
-                <p>Weather</p>
+    <main>
+        <div class="top">
+            <div id="coin">
+                <div  id='coin-top' class="coin-top"></div>
             </div>
-            <h1 class="time">TIME HERE</h1>
-            <h4>Picture Taken By : <span id="author"></span></h4>
-        </main>
-    </div>
+            <div id="weather">
+                <div class="icon-dg">    
+                    <img id="weather-icon">
+                    <span id="temp">Temp</span>
+                </div>
+                <h3 id="city">city</h3>
+
+            </div>
+        </div>
+
+        <h1 class="time" id="time">TIME HERE</h1>
+        <h4>Picture Taken By : <span id="author"></span></h4>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>

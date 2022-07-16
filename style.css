@@ -35,3 +35,14 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
+.coin-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-dg {
+    display: flex;
+    align-items: center;
+}
